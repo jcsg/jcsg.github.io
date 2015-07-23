@@ -1,0 +1,366 @@
+\documentclass[11pt]{article}
+
+%Calling Packages and setting options
+\usepackage{fancyhdr}
+\fancyhf{}
+\chead{\textit{John Sylak-Glassman}}
+\cfoot{\thepage}
+\fancyhfoffset{0in}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\pagestyle{fancy}
+\usepackage[hmargin=0.5in,vmargin=1in,letterpaper]{geometry}
+\usepackage{hyperref}				%Enables active hyperlinks
+\usepackage{longtable}				%Allows tables to flow over page breaks
+\usepackage{setspace}				%Enables line spacing control
+%	\onehalfspacing				%Sets spacing at double using the setspace package
+\usepackage{tipa}					%Enables IPA input
+\usepackage{tipx}					%Enables other IPA input
+\usepackage{natbib}
+\renewcommand{\refname}{}
+%\usepackage{pslatex}
+\usepackage{covington}
+\usepackage[T1]{fontenc}
+
+%Custom font controls
+\renewcommand{\bf}[1]{\textbf{#1}}
+\newcommand{\ca}[1]{\textsc{#1}}
+\renewcommand{\it}[1]{\textit{#1}}
+\newcommand{\ro}[1]{\textrm{#1}}
+\renewcommand{\tt}[1]{\texttt{#1}}
+
+%Custom-built TIPA Characters for /barred i/ with Any Sort of Diacritic
+\newcommand{\dotlessbari}{\ipabar{{\tipaencoding \i}}{.5ex}{1.1}{}{}}		%Produces a dotless barred i for use in the 
+															%following commands = \dotlessbari
+
+% in the following custom commands for barred i, I use uppercase `i' in the command names.
+\newcommand{\hI}{\tipaupperaccent{1}{\dotlessbari}}	%High-tone non$-$nasal barred i = \hI (uppercase i)
+\newcommand{\lI}{\tipaupperaccent{0}{\dotlessbari}}	%Low-tone non$-$nasal barred i = \lI (lowercase L, uppercase i)
+\newcommand{\nhI}{\nh{\dotlessbari}}				%High-tone nasalized barred i = \nhI (uppercase i)
+\newcommand{\nlI}{\nl{\dotlessbari}}					%Low-tone nasalized barred i = \nlI (lowercase L, uppercase i)
+\newcommand{\nI}{\tipaupperaccent{3}{\dotlessbari}}	%Nasalized barred i, no tone = \nI
+
+\newenvironment{myindentpar}[1]%
+ {\begin{list}{}%
+         {\setlength{\leftmargin}{#1}}%
+         \item[]%
+ }
+ {\end{list}}
+
+%Metadata
+\title{Curriculum Vitae}
+\author{John Christopher Sylak-Glassman}
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}\noindent\textbf{\LARGE John Sylak-Glassman}\vspace{6pt} \\ \noindent\textit{\large Curriculum Vitae} %\\ \noindent\textit{September 17, 2013} 
+\end{center} 
+\noindent Email: jcsg@jhu.edu \hfill Center for Language and Speech Processing \\
+Phone: (419) 581-1245 \hfill Johns Hopkins University \\
+Website: \href{http://linguistics.berkeley.edu/~sylak/}{http://linguistics.berkeley.edu/$\sim$sylak} \hfill Hackerman Hall 226 \\
+R\'esum\'e available by request \hfill 3400 North Charles Street \\
+\mbox{ } \hfill Baltimore, MD 21218 % get zip + 4
+
+\subsection*{Professional Experience}
+
+\noindent Postdoctoral Research Fellow, \it{Center for Language and Speech Processing} \hfill June 2014 - Present \\
+\noindent Johns Hopkins University; P.I.:~Prof.~David Yarowsky
+
+\subsection*{Education}
+
+\noindent Ph.D., Linguistics, \textbf{University of California, Berkeley} \hfill May 2014 \\
+Dissertation: \it{Deriving natural classes: The phonology and typology of post-velar consonants} \\
+Committee: Sharon Inkelas (Chair), Andrew Garrett, Keith Johnson, Darya Kavitskaya \vspace{-8pt} \\
+
+\noindent M.A., Linguistics, \textbf{University of California, Berkeley} \hfill May 2010\vspace{-8pt} \\
+
+\noindent B.A.~with General Honors, Linguistics with Honors, \textbf{University of Chicago} \hfill June 2008 \\
+Honors Thesis: \it{Lak verbal morphology}. Advisor: Victor Friedman. \\
+Minor: Slavic Languages \& Literatures (Russian)
+
+% Need to somehow work in my current position here.
+
+\subsection*{Awards}
+
+Best Student Abstract Award, Linguistic Society of America 2013 Annual Meeting \hfill Sept.~2012\vspace{-8pt} \\
+
+\noindent National Science Foundation Graduate Research Fellowship Program (NSF GRFP) - \hfill Apr.~2010 \\
+\mbox{}\hspace{0.45in}Honorable Mention\vspace{-8pt} \\
+
+\noindent Phi Beta Kappa, Beta Illinois - University of Chicago Chapter (inducted as third-year undergraduate) \hfill Apr.~2007\vspace{-8pt} \\
+
+\noindent Dean's List, University of Chicago (all years attended) \hfill 2004 - 2008
+
+\subsection*{Grants and Fellowships}
+
+\noindent Foreign Language and Area Studies Fellowship (stipend plus tuition, fees, and benefits) \hfill June 2013\vspace{-8pt} \\
+
+\noindent Robert L.~Oswalt Graduate Student Support Endowment for Endangered Language Documentation \hfill Dec.~2012 \\
+\mbox{}\hspace{0.45in} (for Ditidaht Language Documentation Project)\vspace{-8pt} \\
+
+\noindent Graduate Division Summer Grant (for Ditidaht Language Documentation Project) \hfill Apr.~2012\vspace{-8pt} \\
+
+\noindent Robert L.~Oswalt Graduate Student Support Endowment for Endangered Language Documentation \hfill Dec.~2011 \\
+\mbox{}\hspace{0.45in} (for Ditidaht Language Documentation Project)\vspace{-8pt} \\
+
+\noindent Dean's Normative Time Fellowship (stipend plus tuition, fees, and benefits) \hfill June 2011\vspace{-8pt} \\
+
+\noindent Graduate Division Summer Grant (for M\'a\'ij\textbari ki Language Documentation Project) \hfill Apr.~2011\vspace{-8pt} \\
+
+\noindent Diebold Linguistics Graduate Fellowship (stipend plus non-resident tuition, fees, and benefits for\hfill June 2008 \\ 
+\mbox{}\hspace{0.45in}first year of graduate school)\vspace{-8pt} \\
+
+\noindent Beinecke Brothers Foundation Scholarship (supplemental support for graduate school) \hfill Apr.~2007\vspace{-8pt} \\ 
+
+\noindent Whirlpool Sons \& Daughters Scholarship (support for college) \hfill Apr.~2004
+
+\subsection*{Publications}
+
+\begin{reflist}
+\ca{\bf{Sylak-Glassman, John}} and \ca{Kirov, Christo}; \ca{Matt Post; Roger Que;} and \ca{David Yarowsky}. To appear (Fall 2015). A universal feature schema for rich morphological annotation and fine-grained cross-lingual part-of-speech tagging. \it{Proceedings of the Fourth International Systems and Frameworks for Computational Morphology Conference.} Berlin: Springer.
+
+\ca{\bf{Sylak-Glassman, John}; Christo Kirov; David Yarowsky}; and \ca{Roger Que}. To appear (July 2015). A language-independent feature schema for inflectional morphology. \it{Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian Federation of Natural Language Processing (ACL-IJCNLP 53)}. Stroudsburg, PA: Association for Computational Linguistics.
+
+% Does my dissertation in the Phonology Lab Annual Report count?
+\ca{\bf{Sylak-Glassman, John}}. 2014. The effects of post-velar consonants on vowels in Ditidaht. \it{Precedings of the 49th Annual International Conference on Salish and Neighbouring Languages} ed.~by Natalie Weber, Emily Sadlier-Brown, and Erin Guntly, 17-38. Vancouver, BC: University of British Columbia Working Papers in Linguistics.
+
+\ca{\bf{Sylak-Glassman, John}}. 2014. An emergent approach to the guttural natural class. In \it{Supplemental Proceedings of Phonology 2013}, ed.~by John Kingston, Claire Moore-Cantwell, Joe Pater, and Robert Staubs. Washington, DC: Linguistic Society of America.
+
+\ca{\bf{Sylak-Glassman, John}}. 2013. Review of \it{Writing Quechua: The Case For a Hispanic Orthography} by David J.~Weber. \it{International Journal of American Linguistics} 79(4): 580-582. 
+
+\ca{\bf{Sylak-Glassman, John}}. 2013. Affix ordering in Imbabura Quichua. In \it{Structure and Contact in Languages of the Americas, Survey Reports, Vol.~15}, ed.~by John Sylak-Glassman and Justin Spence, 311-335. Berkeley, CA: Survey of California and Other Indian Languages.
+
+\ca{\bf{Sylak, John}}. 2013. Pharyngealization in Chechen is gutturalization. In \it{Proceedings of the 37th Annual Meeting of the Berkeley Linguistics Society}, ed.~by Chundra Cathcart, Shinae Kang, and Clare S.~Sandy, 81-95. Berkeley, CA: Berkeley Linguistics Society and Washington, DC: Linguistic Society of America.
+
+\ca{Riggle, Jason; Max Bane; James Kirby;} and \ca{\bf{John Sylak}}. 2011. Multilingual learning with parameter co-occurrence clustering. In \it{Proceedings of the 39th Annual Meeting of the North East Linguistic Society (Volume 1)}, ed.~by Suzi Lima, Kevin Mullin, and Brian Smith, 67-82. Amherst, MA: GLSA.
+
+\ca{\bf{Sylak, John}}. 2008. Lak reduplication: Neither morphological nor phonological fixed segmentism, 15 pp. Reviewed and accepted for publication in \it{Chicago Working Papers in Linguistics}.
+
+\ca{Riggle, Jason; Max Bane; Edward King; James Kirby; Heather Rivers; Evelyn Rosas;} and \ca{\bf{John Sylak}}. 2007. Erculator: A web application for constraint-based phonology. \it{University of Massachusetts Occasional Papers in Linguistics 36: Papers in Theoretical and Computational Phonology}, ed.~by Michael Becker, 135-50. Amherst, MA: GLSA. Note: The Erculator program formed a basis for the current CLML program PyPhon.
+\end{reflist}
+
+\subsection*{Edited Volume}
+
+\begin{reflist}
+\ca{\bf{John Sylak-Glassman}} and Justin Spence (eds.). 2013. \it{Structure and Contact in Languages of the Americas, Survey Reports, Vol.~15}. Berkeley, CA: Survey of California and Other Indian Languages.
+
+%\ca{Cleary-Kemp, Jessica; Clara Cohen; Stephanie Farmer; Melinda Fricke;} and \ca{\bf{John Sylak-Glassman}} (eds). To appear. \it{Proceedings of the 36th Annual Meeting of the Berkeley Linguistics Society}. D\"usseldorf: eLanguage. 
+\end{reflist}
+
+%\subsection*{Manuscripts In Revision}
+
+%\begin{reflist}
+%\ca{\bf{Sylak-Glassman, John}}. Audibility and syllabic nuclei. 12 pp.
+%\end{reflist}
+
+\subsection*{Manuscripts in Preparation}
+
+\begin{reflist}
+\ca{\bf{Sylak-Glassman, John}; Stephanie Farmer;} and \ca{Lev Michael}. Nasalization and nasal harmony in M\'a\'ij\textbari ki. 35 pp.
+
+\ca{\bf{Sylak-Glassman, John}}. The phonetic properties of voiced stops descended from nasals in Ditidaht. 22 pp.
+
+%\ca{\bf{Sylak-Glassman, John}}. Syllabification of obstruent-only words in Nuxalk. 
+
+\end{reflist}
+
+%\subsection*{Other Work}
+
+%\begin{reflist}
+%\end{reflist}
+
+\subsection*{Conference Presentations}
+
+\begin{reflist}
+\ca{Sylak-Glassman, John}. 30 June 2015. Grounding typological variation in articulatory reality: Place features for the post-velar consonants. Poster presented at \it{Phonetics and Phonology in Europe 2015 (PaPE 2015)}. University of Cambridge. 
+
+\ca{Sylak-Glassman, John}. 25 April 2015. Deriving natural classes using phonological entailments. Talk given at the \it{51st Annual Meeting of the Chicago Linguistic Society (CLS 51)}. University of Chicago.
+
+\ca{\bf{Sylak-Glassman, John}; Stephanie Farmer;} and \ca{Lev Michael}. 19 May 2014. An Agreement by Correspondence analysis of M\'a\'ih\nI ki nasalization harmony. Talk given at the \it{ABC$\leftrightarrow$Conference}. University of California, Berkeley. (Updated version of work presented at WSCLA 18.)
+
+\ca{\bf{Sylak-Glassman, John}}. 10 Nov.~2013. An emergent approach to the guttural natural class. Poster presented at \it{Phonology 2013}. University of Massachusetts, Amherst.
+
+\ca{\bf{Sylak-Glassman, John}}. 10 Aug.~2013. The effects of post-velar consonants on vowels in Ditidaht. Talk given at the \it{48th International Conference on Salish and Neighbouring Languages}. Victoria, BC, Canada.
+
+\ca{\bf{Sylak-Glassman, John}}. 5 Apr.~2013. An Agreement by Correspondence analysis of M\'a\'ih\nI ki nasalization harmony. Talk given at the \it{18th Workshop on Structure and Constituency in Languages of the Americas (WSCLA 18)}. Berkeley, CA.
+
+\ca{\bf{Sylak-Glassman, John}}. 3 Jan.~2013. The phonetic properties of voiced stops descended from nasals in Ditidaht. Talk given at the \it{87th Annual Meeting of the Linguistic Society of America}. Boston, MA. 
+
+\ca{Michael, Lev; Stephanie Farmer;} and \ca{\bf{John Sylak}}. 26 Apr.~2012. La nasalidad sil\'abica y la armon\'ia nasal en M\'a\'ih\textbari ki [Syllabic nasality and nasal harmony in M\'a\'ih\textbari ki]. Talk given at \it{Amazonicas 4}. Lima, Per\'u.
+
+\ca{\bf{Sylak, John}}. 9 Jan.~2012. Pharyngealization in Chechen is gutturalization. Poster presented at the \it{86th Annual Meeting of the Linguistic Society of America}. Portland, OR.
+
+\ca{\bf{Sylak, John}}. 12 Feb.~2011. Pharyngealization in Chechen is not just pharyngeal. Talk given at the \it{37th Annual Meeting of the Berkeley Linguistics Society}. Berkeley, CA.
+
+\ca{Campbell, Amy; Andrew Garrett; Hannah Haynie; Justin Spence; Ronald Sprouse;} and \ca{\bf{John Sylak}}. 9 Jan.~2011. Geographical metadata in the California Language Archive. Poster presented at the \it{85th Annual Meeting of the Linguistic Society of America}. Pittsburgh, PA.
+
+\ca{\bf{Sylak, John}}. 8 Jan.~2011. Exhaustive and restrictive syllabification in Bella Coola (Nuxalk). Talk given at the \it{85th Annual Meeting of the Linguistic Society of America}. Pittsburgh, PA.
+
+\ca{\bf{Sylak, John}}. 10 Jan.~2009. Lak reduplication challenges OT fixed segmentism. Poster presented at the \it{83rd Annual Meeting of the Linguistic Society of America}. San Francisco, CA.
+
+\ca{Riggle, Jason; Max Bane;} and \ca{\bf{John Sylak}}. 5 Jan. 2008. Distinguishing grammars in multilingual learning using parameter co-occurrence. Talk given at the \it{82nd Annual Meeting of the Linguistic Society of America}. Chicago, IL.
+\end{reflist}
+
+\subsection*{Invited Talks and Workshop Presentations}
+
+\begin{reflist}
+\ca{\bf{Sylak, John}}. 2 May 2011. Exhaustive and Restrictive Syllabification in Bella Coola (Nuxalk). \it{Phonetics and Phonology Workshop}, Department of Linguistics, Stanford University.
+
+\ca{Chang, William; \bf{John Sylak};} and \ca{Melinda Fricke}. 5 Oct.~2009. Quichua phonology so far: A presentation of ongoing work by students in LING 240A (Field Methods). \it{Phonetics and Phonology Forum}, Department of Linguistics, University of California, Berkeley.
+
+\ca{\bf{Sylak, John}}. 10 Jan.~2009. A one-stem approach to the Lak verb. Invited talk given at the \it{Linguistic Society of America Annual Meeting} as part of the \it{2009 LSA Symposium on the Languages of the Caucasus}. San Francisco, CA.
+\end{reflist}
+
+\subsection*{Research Experience}
+
+Postdoctoral Fellow, \it{Center for Language and Speech Processing} \hfill June 2014 - Present \\
+\noindent Johns Hopkins University; P.I.:~Prof.~David Yarowsky
+
+\begin{myindentpar}{0.45in}
+Collaborating on developing methods to improve the handling of morphology by machine translation and natural language processing systems. Using findings from linguistic typology and descriptive theory, the project focuses on facilitating translation between many languages through a cross-linguistically applicable representation of the meanings encoded by morphology. 
+\end{myindentpar}
+
+\noindent Graduate Student Researcher, \it{Survey of California and Other Indian Languages} \hfill Aug.~2010 - Aug.~2012 \\
+\noindent University of California, Berkeley; Supervisor: Prof.~Andrew Garrett
+
+\begin{myindentpar}{0.45in}
+Archived linguistic data in compliance with established best practices by organizing materials received (e.g.~manuscripts, field notes, books, maps, reels, cassettes, CDs), accessioning them into the Survey's digital catalog, and storing them in an archivally-safe manner. Assisted migration of Survey and Berkeley Language Center digital catalogs to California Language Archive. Maintained Survey website and participated in the design of the California Language Archive (http://cla.berkeley.edu/). Provided access to archival materials for patrons from both academic and Native American communities, with a focus on facilitating digital access. Trained colleagues in digitizing and accessioning archival materials.
+\end{myindentpar}
+
+\noindent Graduate Student Researcher, \it{Phonology-Morphology Interface} \hfill Summer 2010 \\
+\noindent University of California, Berkeley; Supervisor: Prof.~Sharon Inkelas
+
+\begin{myindentpar}{0.45in}
+Collected example data and summarized theoretical findings and arguments on topics related to the phonology-morphology interface. This work is being used for an overview volume on the phonology-morphology interface being prepared by Prof.~Sharon Inkelas. Topics for which data and theoretical arguments were provided: Morphologically conditioned phonology, process and non-concatenative morphology, templates, non-parallelism between phonological and morphological structure, phonology interfering with morphology, and paradigmatic effects.
+\end{myindentpar}
+
+\noindent Graduate Student Researcher, \it{Chechen Pharyngeal Consonants} \hfill Spring 2010 \\
+\noindent University of California, Berkeley; Supervisor: Prof.~Johanna Nichols
+
+\begin{myindentpar}{0.45in}
+Surveyed literature in Russian and English on pharyngealized consonants in Chechen to determine their phonetic, phonological, and historical characteristics. Used Praat scripting to extract acoustic measurements from digital recordings, and statistically analyzed data in \textit{R}. This work formed the basis for Sylak (2013) ``Pharyngealization in Chechen is Gutturalization.''
+\end{myindentpar}
+
+\noindent Undergraduate Research Assistant, \it{Chicago Language Modeling Lab} \hfill Apr.~2007 - Aug.~2008 \\
+\noindent University of Chicago; Supervisor: Prof.~Jason Riggle
+
+\begin{myindentpar}{0.45in}
+Collaborated as part of a team with the director of the Advanced Simulations Technologies Center at Argonne National Laboratory on conceptual details of incorporating a language module into the ENKIMDU simulation. Drafted progress reports for funding agencies. Compiled a comprehensive phonological feature chart to be used for computationally evaluating Optimality Theoretic constraints in Erculator. Co-wrote manual for Erculator program as a submission to \textit{UMOP} 36. Provided and edited content for lab website. Beta-tested lab software.
+\end{myindentpar}
+
+\subsection*{Field Research Experience}
+
+\noindent\mbox{}\hspace{-1ex}\begin{tabular}{p{0.21\textwidth} p{0.14\textwidth} p{0.37\textwidth} l}
+\it{Language}\vspace{6pt} & \it{ISO 639-3} & \it{Field Site} & \it{Duration} \\
+Ditidaht & DTD & Nitinaht Lake (Malachan 11), British & 5 weeks in summer 2012 \\
+& & Columbia, Canada\vspace{6pt} & (ongoing project) \\
+M\'a\'ij\textbari ki & ORE\vspace{6pt} & Nueva Vida, Loreto, Per\'u & 8 weeks in summer 2011 \\
+Imbabura Quichua & QVI & Berkeley, CA (field methods class) & 2009-2010 academic year \\
+\end{tabular}
+
+\subsection*{Primary Research Interests}
+
+Morphology; phonology, phonetics, and the phonetics-phonology interface; linguistic typology; %cross-linguistically rare consonants; sound change; 
+description of endangered languages; %languages of the Pacific Northwest Coast of North America; languages of the North Caucasus.%phonotactics of languages with large consonant inventories; sonority and syllabification; 
+computational linguistics, esp.~improving NLP \& MT by integrating linguistic knowledge
+
+\subsection*{Teaching and Mentoring Experience}
+
+Linguistics Research Apprenticeship Practicum (LRAP) \hfill Spring 2013 - Spring 2014 \\
+\noindent University of California, Berkeley; Department of Linguistics
+
+\begin{myindentpar}{0.45in}
+Currently mentoring an undergraduate doing phonological typology research on post-velar consonants, especially in the Athabaskan languages. 
+\end{myindentpar}
+
+\noindent Graduate Student Instructor, \it{The American Languages} (LING 55AC) \hfill Fall 2009 \\
+\noindent University of California, Berkeley; Department of Linguistics
+
+\begin{myindentpar}{0.45in}
+Led three one-hour discussion sections weekly with a total of 49 students. The class focused on language ideology and policy in the US, dialectal variation in American English, and the languages spoken by immigrants to the US and Native Americans. Overall teaching effectiveness: 6.2 / 7.0.
+\end{myindentpar}
+
+\noindent Residential Tutor, \it{Computer Science} and \it{Spanish} \hfill June - Aug.~2006 \\
+\noindent University of Massachusetts, Boston, Upward Bound
+
+\begin{myindentpar}{0.45in}
+Guided students and assisted teachers daily for 6 weeks in classes on HTML and Spanish by helping to correct code or improve language skills, respectively. Students were low-income, first-generation college-bound high school students from Boston. 
+ \end{myindentpar}
+
+\noindent Volunteer ESL Tutor, \textit{Students Teaching at the Ray School (STARS)} \hfill Sept.~2005 - May 2008 \\
+University of Chicago and Ray Elementary School, Chicago, IL
+
+\begin{myindentpar}{0.45in}
+Tutored two students (grades 3 and 5) from Russian-speaking backgrounds and one student (grade 6) from a Swahili-speaking background twice a week throughout the school year in reading and mathematics.
+\end{myindentpar}
+
+\subsection*{Primary Teaching Interests}
+
+Phonology; phonetics; field methods; typology; morphology; historical linguistics; Native American languages; languages of the North Caucasus.
+
+\subsection*{Service}
+
+\begin{reflist}
+Co-organizer with \ca{Andrew Garrett, Lev Michael, Line Mikkelsen, Richard} \hfill Oct.~2012 - Apr.~2013 \\
+\ca{Rhodes,} and \ca{Katie Sardinha}. \it{Workshop on the Structure and Constituency of} \\
+\it{Languages of the Americas (WSCLA) 18}. University of California, Berkeley.
+
+Organizer. \it{Group in American Indian Languages (GAIL)}. Survey of California and  \hfill Aug.~2010 - May 2012 \\
+Other Indian Languages. University of California, Berkeley.
+
+Co-organizer with \ca{Jessica Cleary-Kemp, Andrew Garrett, Clare Sandy,} and \hfill Aug.~2010 - May 2012 \\
+\ca{Tammy Stark}. \it{Fieldwork Forum (FForum)}. Department of Linguistics. \\
+University of California, Berkeley.
+
+Co-organizer with \ca{Shinae Kang}. \it{Phonetics and Phonology Forum (Phorum)}. \hfill Aug.~2010 - Dec.~2011 \\
+Department of Linguistics. University of California, Berkeley.
+
+Mentor for Chochenyo Ohlone language. \it{The 9th Breath of Life California Indian} \hfill June 2010 \\
+\it{Language Restoration Workshop}. Advocates for Indigenous California Language \\
+Survival. University of California, Berkeley.
+ 
+Co-organizer with \ca{Jessica Cleary-Kemp, Clara Cohen, Stephanie Farmer,} \hfill Aug.~2009 - Feb.~2010 \\
+\ca{Laura Kassner,} and \ca{Melinda Woodley (Fricke)}. \it{36th Annual Meeting} \\
+\it{of the Berkeley Linguistics Society (BLS 36).}
+
+Volunteer. \it{Linguistic Society of America Summer Linguistic Institute: Linguistic} \hfill July - Aug.~2009 \\
+\it{Structure and Language Ecologies}. University of California, Berkeley.
+
+Abstract Reviewer. \it{Berkeley Linguistics Society (BLS).} Served on following committees: \hfill 2009 - 2012 \\
+Negation, Phonology (2009); Phonology (2010); Phonology (2011); Morphology  \\
+(chair), Language Contact (2012).
+
+Associate Justice. \it{Judicial Council.} Associated Students of the University of California \hfill Feb.~2009 - May 2011 \\
+(ASUC). University of California, Berkeley.
+
+Delegate for Department of Linguistics. \it{Graduate Assembly.} Associated Students of the \hfill Fall 2008 - Spring 2009 \\
+University of California (ASUC). University of California, Berkeley. Served on \\
+technology subcommittee.
+
+Volunteer. \it{Linguistic Society of America Annual Meeting.} Served at meetings in \hfill 2008, 2009, 2011 \\
+Chicago (2008), San Francisco (2009), and Pittsburgh (2011).
+\end{reflist}
+
+\subsection*{Technical Skills}
+
+\it{Computational}: Python, R, Praat scripting, \LaTeX, CSS, HTML \\
+\it{Other}: audio recording, data and metadata management, archiving physical, analog, and digital materials
+
+\subsection*{Languages}
+
+\it{Reading and Speaking}: English (native), Russian (advanced), Spanish (intermediate), French (beginner) \\
+\it{Structural Knowledge}: Ditidaht (Wakashan; Vancouver Island, BC), M\'a\'ih\textbari ki (Western Tukanoan; Peruvian Amazon), Imbabura Quichua (Quechua; Ecuador), Chechen (Northeast Caucasian; Russia), Lak (Northeast Caucasian; Russia)
+%\mbox{}\hspace{-1ex}\begin{tabular}{l l }
+%English & Native \\
+%Spanish & Advanced \\
+%Russian & Advanced \\
+%French & Basic \\
+%Ditidaht (Wakashan) & Field work \\
+%M\'a\'ih\textbari ki (Western Tukanoan) & Field work \\
+%Imbabura Quichua (Quechua) & Field work \\
+%Chechen (Nakh-Daghestanian) & Structural \\
+%Lak (Nakh-Daghestanian) & Structural \\
+%\end{tabular}
+
+\end{document}
